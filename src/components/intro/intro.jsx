@@ -10,7 +10,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["innovator", "programmer", "writer"],
+      strings: ["innovator", "programmer", "writer(?)"],
     });
   }, []);
 
