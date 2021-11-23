@@ -1,12 +1,11 @@
 @import "../../global.scss";
 
 .works {
-  background-color: crimson;
+  background-color: $mainColor;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-
   .arrow {
     height: 50px;
     position: absolute;

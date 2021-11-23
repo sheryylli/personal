@@ -7,7 +7,7 @@
   align-items: center;
 
   h1 {
-    font-size: 50px;
+    font-size: 60px;
 
     @include mobile{
       font-size: 20px;
@@ -15,8 +15,8 @@
   }
 
   ul {
-    margin: 10px;
-    padding: 0;
+    margin: 20px;
+    padding: 20;
     list-style: none;
     display: flex;
 
@@ -28,7 +28,7 @@
   }
 
   .container {
-    width: 70%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,11 +39,11 @@
     }
 
     .item {
-      width: 220px;
-      height: 150px;
+      width: 300px;
+      height: 200px;
       border-radius: 20px;
       border: 1px solid rgb(240, 239, 239);
-      margin: 10px 20px;
+      margin: 20px 30px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -70,7 +70,7 @@
       }
 
       &:hover {
-        background-color: $mainColor;
+        background-color: #A4AFEF;
         img {
           opacity: 0.2;
           z-index: 0;
